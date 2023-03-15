@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WYSIWYG Editor</title>
+    <style>
+        @import url('wysiwyg.min.css');
+
+    </style>
+</head>
+
+<body>
+    <h1>WYSIWYG Editor</h1>
+    <textarea name="" id="textarea" cols="30" rows="10" hidden>Select me to show the editing menu.</textarea>
+    <script src="wysiwyg.min.js"></script>
+    <script>
+        new WYSIWYG(document.getElementById('textarea'));
+    </script>
+    <h2>Installation</h2>
+    <details>
+        <summary>
+            <b>View Instructions</b>
+        </summary>
+        <p>Download the styles and the script.</p>
+        <p>Include the CSS file:</p>
+        <pre>@import url('wysiwyg.min.css');</pre>
+        <p>Include the JS file:</p>
+        <pre>&lt;script src="wysiwyg.min.js"&gt;&lt;/script&gt;</pre>
+        <p>Make a textarea of an input field</p>
+        <pre>&lt;textarea id="textarea"&gt;&lt;/textarea&gt;</pre>
+        <p>Initialize the editor</p>
+        <pre>new WYSIWYG(document.getElementById('textarea'));</pre>
+        <p><b>That's all!</b></p>
+        <p>Final Code:</p>
+        <pre>&lt;style&gt;@import url('wysiwyg.min.css');&lt;/style&gt;<br>&lt;textarea id="textarea"&gt;&lt;/textarea&gt;<br>&lt;script src="wysiwyg.min.js"&gt;&lt;/script&gt;<br>&lt;script&gt;new WYSIWYG(document.getElementById('textarea'));&lt;/script&gt;</pre>
+        <p><i>(That's the demo above, with minor modifications for proper HTML formatting.)</i></p>
+    </details>
+    <hr>
+    <h2>Tiny</h2>
+    <p>The whole package is just ~1.6 KB, archived + gzipped.</p>
+    <h2>Fast</h2>
+    <p>It's superfast. The small size and efficient structure make it easy to load, even on slow devices.</p>
+    <h2>Powerful</h2>
+    <p>Feature-packed and intuitive, this editor is the best and simplest one available!</p>
+    <h2>Zero Dependencies</h2>
+    <p>This package uses zero dependencies. Literally. And the installation process is so easy you'll want it on all your sites!</p>
+    <h2>Inline</h2>
+    <p>The whole editor is inline. I think it looks nice.</p>
+    <p><b>&copy; 2023 mrfakename. All rights reserved.</b></p>
+</body></html>

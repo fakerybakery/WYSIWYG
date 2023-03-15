@@ -1,0 +1,34 @@
+.wysiwyge {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    min-height: 200px;
+}
+
+.wysiwygmt {
+    display: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 100px;
+    /*            transform: translate(0, -50%);*/
+    z-index: 999;
+    background: #484848;
+    padding: 5px;
+}
+
+.wysiwygmt button {
+    background: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.active {
+    background: #616161 !important;
+}
+
+.wysiwygmt button:hover {
+    background: #717171 !important;
+}

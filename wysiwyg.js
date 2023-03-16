@@ -209,4 +209,10 @@ function WYSIWYG(el) {
     menu.classList.add('wysiwygmt')
     editor.classList.add('wysiwyge')
     parent.insertBefore(menu, el.nextSibling);
+    function setText(text) {
+        editor.textContent = text;
+    }
+    function setHTML(text) {
+        editor.innerHTML = text;
+    }
 }

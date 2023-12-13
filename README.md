@@ -23,3 +23,7 @@ new WYSIWYG(document.getElementById('textarea'));
 new WYSIWYG(document.getElementById('input'));
 ```
 &copy; 2023 mrfakename. All rights reserved.
+
+## License
+
+LGPL, however minor modifications (customization, styling, etc) allowed without open sourcing changes. Major modifications must be open sourced
